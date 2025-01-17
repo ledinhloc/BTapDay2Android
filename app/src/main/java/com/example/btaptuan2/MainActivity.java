@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String chuoi = edtNhap.getText().toString();
-                tvXuat.setText("Bạn đã nhập" + chuoi);
+                tvXuat.setText("Bạn đã nhập:   " + chuoi);
 
                 String chuoiNguoc = "";
                 String[] array = chuoi.split(" ");
